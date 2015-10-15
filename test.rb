@@ -1,4 +1,6 @@
 require_relative 'app.rb'
 
-# p Student.new(first_name: 'andy')
+dandy = Student.new(first_name: 'dandy')
+# p Student.all
+dandy.save
 p Student.all
